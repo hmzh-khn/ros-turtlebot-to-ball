@@ -6,6 +6,7 @@ In order to download and build the package, run the following commands in the te
 ~~~~
 git clone https://github.com/khanh111/ros-turtlebot-to-ball.git
 cd ros-turtlebot-to-ball
+source devel/setup.bash
 catkin_make
 catkin_make install
 ~~~~
